@@ -2,9 +2,9 @@ function setAndFindG() {
 	image = document.getElementById("intMapImg");
 	scrWidth = window.screen.availWidth;
 	
-	image.width = scrWidth * 0.9;
-	image.minWidth = "500px";
 	imgWidth = scrWidth * 0.9;
+	image.width = imgWidth;
+	image.minWidth = 500;
 	oriWidth = 1833;
 	
 	dif = imgWidth / oriWidth;
