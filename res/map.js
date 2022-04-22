@@ -3,7 +3,8 @@ function setAndFindG() {
 	scrWidth = window.screen.availWidth;
 	
 	image.width = scrWidth * 0.9;
-	imgWidth = image.width;
+	image.minWidth = "500px";
+	imgWidth = scrWidth * 0.9;
 	oriWidth = 1833;
 	
 	dif = imgWidth / oriWidth;
