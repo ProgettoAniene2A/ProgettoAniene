@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+#content {
+	width: 99%;
+	margin-left: 1%;
+}
+
+#map1 {
+	float: right;
+	max-width: 26%;
+}
