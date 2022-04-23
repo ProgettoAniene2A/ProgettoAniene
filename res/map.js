@@ -9,11 +9,11 @@ function setAndFindG() {
 	
 	dif = imgWidth / oriWidth;
 	
-	return dif
+	return dif;
 };
 
 function loadMap() {
-	let g = setAndFindG();
+	g = setAndFindG();
 	console.log(g);
 	
 	map = document.getElementById("intMap");
