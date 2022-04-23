@@ -1,3 +1,9 @@
+/* font */
+@font-face {
+	font-family: "Lato";
+	src: url("../res/font/lato.ttf");
+}
+
 /* stili generali */
 html {
 	width: 100%;
@@ -5,7 +11,8 @@ html {
 
 body {
 	margin: 0;
-	font-family: sans-serif;
+	/* font-family: sans-serif; */
+	font-family: "Lato";
 	width: 100%;
 }
 
@@ -15,7 +22,6 @@ body {
 }
 
 /* mappa provvisoria nella home */
-
 #map1 {
 	float: right;
 	max-width: 26%;
@@ -49,4 +55,69 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	min-width: 80%;
+}
+
+/* pagina dei progetti */
+#projCont {
+	background-color: #181818;
+}
+
+#projects {
+	display: grid;
+	grid-column-gap: 1%;
+	grid-row-gap: 4%;
+	grid-template-columns: 48% 48%;
+	width: 100%;
+	justify-content: center;
+	padding-top: 2%;
+	padding-bottom: 10%;
+}
+
+.gridEls {
+	border-radius: 1em;
+	background-color: #222;
+	color: #eee;
+	min-height: 40vh;
+	justify-content: center;
+}
+
+.gridEls:hover {
+	background-color: #080808;
+	background-image: none !important;
+	transition-duration: 0.8s;
+	opacity: 0%;
+}
+
+.gridEls:not(:hover) {
+	transition-duration: 0.1s;
+}
+
+.internalGrid {
+	width: 96%;
+	height: 96%;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+#riqual {
+	grid-column: 1 / 2;
+	grid-row: 1;
+	background-image: url("../foto/parco1.jpg")
+}
+
+#bracci {
+	grid-column: 2 / 3;
+	grid-row: 1;
+}
+
+#sitoP {
+	grid-column: 1 / 3;
+	grid-row: 2;
+}
+
+#projTitle {
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding-top: 2%;
 }
