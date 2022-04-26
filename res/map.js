@@ -1,13 +1,11 @@
 function setAndFindG() {
 	image = document.getElementById("intMapImg");
-	scrWidth = window.screen.availWidth;
+	imgHeight = window.screen.availHeight * 0.85;
 	
-	imgWidth = scrWidth * 0.9;
-	image.width = imgWidth;
-	image.minWidth = 500;
-	oriWidth = 1833;
+	image.height = imgHeight;
+	oriHeight = 973;
 	
-	dif = imgWidth / oriWidth;
+	dif = imgHeight / oriHeight;
 	
 	return dif;
 };
@@ -20,7 +18,7 @@ function loadMap() {
 	//areas = document.getElementsByClassName("areas");
 	
 	areas = [
-		[ "rect", [870 * g, 380 * g, 990 * g, 450 * g], "../index.html" ]
+		[ "circ", [352 * g, 469 * g, 14 * g], "../index.html" ]
 	]
 	
 	for ( let i = 0; i < areas.length; i++ ) {
