@@ -18,7 +18,7 @@ function loadMap() {
 	//areas = document.getElementsByClassName("areas");
 	
 	areas = [
-		[ "circ", [352 * g, 469 * g, 14 * g], "../index.html" ]
+		[ "circ", [352 * g, 469 * g, 14 * g], "../luoghi/casa-del-parco.html" ]
 	]
 	
 	for ( let i = 0; i < areas.length; i++ ) {

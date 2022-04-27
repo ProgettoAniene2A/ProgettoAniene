@@ -18,7 +18,11 @@ body {
 }
 
 h1 {
-	font-size: 2.6em;
+	font-size: 3em;
+}
+
+p, li {
+	font-size: 1.3em;
 }
 
 /* mappa provvisoria nella home */
@@ -64,25 +68,25 @@ h1 {
 /* pagina dei progetti */
 #projCont {
 	background-color: #181818;
-	min-height: 97%;
 }
 
 #projects {
 	display: grid;
-	grid-column-gap: 2%;
-	grid-row-gap: 6%;
-	grid-template-columns: 47% 47%;
-	width: 100%;
+	grid-column-gap: 3%;
+	grid-row-gap: 7%;
+	grid-template-columns: 46% 46%;
+	width: 96%;
 	justify-content: center;
 	padding-top: 2%;
-	padding-bottom: 10%;
+	padding-bottom: 2%;
+	margin-left: 2%;
 }
 
 .gridEls {
 	border-radius: 1em;
 	background-color: #181818;
 	color: #eee;
-	min-height: 50vh;
+	min-height: 40vh;
 	justify-content: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -145,6 +149,7 @@ h1 {
 	text-align: center;
 	background-color: #181818;
 	padding-bottom: 3%;
+	margin-top: 3%;
 }
 
 #bottom > a {
@@ -165,4 +170,30 @@ h1 {
 
 #homeCont > ul > li > a {
 	color: lightblue;
+}
+
+
+
+/* map bottom */
+#mapBottom {
+	width: 96%;
+	margin-left: 2%;
+	text-align: center;
+}
+
+/* stile luoghi */
+#placeContent {
+	color: white;
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
+}
+
+#placePic {
+	max-height: 44vh;
+	max-width: 70%;
+}
+
+#placeDesc {
+	text-align: left;
 }
