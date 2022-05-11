@@ -1,10 +1,10 @@
 function scroll() {
 	div = document.getElementById( "mobile" );
 	rawScrollLev = document.body.scrollTop || document.documentElement.scrollTop;
-	scrH = screen.availHeight;
+	scrH = window.innerHeight;
 	
 	// apply some margin to get it in (almost) middle of screen (moreless halfway) and not top
-	scrollLev = rawScrollLev + ( scrH * 0.3 );
+	scrollLev = rawScrollLev + scrH * 0.3
 	
 	if ( scrollLev <= scrH ) {
 		div.className = "scroll0";
@@ -19,8 +19,6 @@ function scroll() {
 	} else if ( scrollLev > scrH * 5 ) {
 		div.className = "scrollL";
 	}
-	
-	console.log( scrH, scrollLev );
 }
 
 window.onscroll = function(){ scroll() };
