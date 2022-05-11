@@ -172,8 +172,6 @@ p, li {
 	color: lightblue;
 }
 
-
-
 /* map bottom */
 #mapBottom {
 	width: 96%;
@@ -197,3 +195,47 @@ p, li {
 #placeDesc {
 	text-align: left;
 }
+
+/* -- mobile -- */
+#mobile {
+	min-width: 100vw;
+	min-height: 100vh;
+	background-color: white;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.scroll1 {
+	transition-duration: 2s;
+	background-color: white !important;
+}
+.scroll2 {
+	transition-duration: 2s;
+	background-color: purple !important;
+}
+.scroll3 {
+	transition-duration: 2s;
+	background-color: green !important;
+}
+.scroll4 {
+	transition-duration: 2s;
+	background-color: blue !important;
+}
+
+.mobProj {
+	color: white;
+	width: 60vw;
+	margin-left: 35vw;
+	margin-right: 5vw;
+	height: 20vh;
+	background-color: rgba( 70, 70, 70, 0.6 );
+	border: solid 0.6vw rgb(20, 20, 20);
+	border-radius: 1vw;
+}
+#mobProj1 { margin-top: 10vh;}
+#mobProj2 { margin-top: 90vh;}
+#mobProj3 { margin-top: 170vh;}
