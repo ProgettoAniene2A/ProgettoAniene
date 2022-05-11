@@ -207,24 +207,20 @@ p, li {
 	top: 0;
 	bottom: 0;
 	z-index: -1;
+	/* animation */
+	transition-duration: 1.5s;
 }
 
-.scroll1 {
-	transition-duration: 2s;
-	background-color: white !important;
+.mobProj > p {
+	font-size: 3vh;
 }
-.scroll2 {
-	transition-duration: 2s;
-	background-color: purple !important;
-}
-.scroll3 {
-	transition-duration: 2s;
-	background-color: green !important;
-}
-.scroll4 {
-	transition-duration: 2s;
-	background-color: blue !important;
-}
+
+.scroll0 { background-color: rgb( 30, 220, 80 ) !important;}
+.scroll1 { background-color: rgb( 255, 240, 110 ) !important;}
+.scroll2 { background-color: rgb( 200, 80, 170 ) !important;}
+.scroll3 { background-color: rgb( 255, 170, 70 ) !important; }
+.scroll4 { background-color: rgb( 40, 180, 250 ) !important;}
+.scrollL { background-color: rgb( 20, 20, 20 ) !important;}
 
 .mobProj {
 	color: white;
@@ -233,9 +229,40 @@ p, li {
 	margin-right: 5vw;
 	height: 20vh;
 	background-color: rgba( 70, 70, 70, 0.6 );
-	border: solid 0.6vw rgb(20, 20, 20);
+	border: solid 0.6vw rgb( 20, 20, 20 );
 	border-radius: 1vw;
 }
 #mobProj1 { margin-top: 10vh;}
-#mobProj2 { margin-top: 90vh;}
-#mobProj3 { margin-top: 170vh;}
+#mobProj2 { margin-top: 100vh;}
+#mobProj3 { margin-top: 100vh;}
+#mobProj4 { margin-top: 100vh;}
+
+#mobHeader {
+	height: 80vh;
+	margin-top: 10vh;
+	margin-bottom: 0;
+	border-bottom-color: rgb( 20, 20, 20 );
+	border-bottom: solid 0.4vw;
+	width: 80vw;
+	margin-left: 10vw;
+	text-align: center;
+}
+
+#mobFooter {
+	margin-top: 80vh;
+}
+
+#mobFmaglie {
+	position: absolute;
+	left: 1vw;
+	top: 360vh;
+	width: 60vw;
+}
+
+#mobFbozz {
+	position: absolute;
+	left: 5vw;
+	top: 135vh;
+	height: 80vh;
+	max-width: 90vw;
+}
