@@ -212,7 +212,8 @@ p, li {
 }
 
 .mobProj > p {
-	font-size: 3vh;
+	font-size: 2.8vh;
+	margin: 0.5em;
 }
 
 .scroll0 { background-color: rgb( 30, 220, 80 ) !important;}
@@ -224,18 +225,18 @@ p, li {
 
 .mobProj {
 	color: white;
-	width: 60vw;
-	margin-left: 35vw;
+	width: 70vw;
+	margin-left: 25vw;
 	margin-right: 5vw;
-	height: 20vh;
+	height: 16vh;
 	background-color: rgba( 70, 70, 70, 0.6 );
-	border: solid 0.6vw rgb( 20, 20, 20 );
-	border-radius: 1vw;
+	border: solid 0.4vw rgb( 20, 20, 20 );
+	border-radius: 2vw;
 }
 #mobProj1 { margin-top: 10vh;}
-#mobProj2 { margin-top: 80vh;}
-#mobProj3 { margin-top: 80vh;}
-#mobProj4 { margin-top: 80vh;}
+#mobProj2 { margin-top: 84vh;}
+#mobProj3 { margin-top: 84vh;}
+#mobProj4 { margin-top: 84vh;}
 
 #mobHeader {
 	height: 80vh;
@@ -255,16 +256,14 @@ p, li {
 #mobFmaglie {
 	position: absolute;
 	left: 1vw;
-	top: 320vh;
-	width: 60vw;
+	top: 330vh;
+	width: 80vw;
 }
 
 #mobFbozz {
 	position: absolute;
-	left: 5vw;
-	top: 130vh;
-	height: auto;
-	width: auto;
+	left: 3vw;
+	top: 135vh;
 	max-height: 70vh;
-	max-width: 90vw;
+	max-width: 96vw;
 }
