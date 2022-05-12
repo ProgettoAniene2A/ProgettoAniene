@@ -208,7 +208,7 @@ p, li {
 	bottom: 0;
 	z-index: -1;
 	/* animation */
-	transition-duration: 1.5s;
+	transition-duration: 1.6s;
 }
 
 .mobProj > p {
@@ -275,12 +275,12 @@ p, li {
 	position: absolute;
 	width: 42vw;
 	right: 2vw;
-	top: 380vh;
+	top: 345vh;
 }
 #mobFlogo {
 	position: absolute;
 	width: 55vw;
-	top: 440vh;
+	top: 390vh;
 	left: 3vw;
 }
 #mobFbird {
@@ -291,38 +291,38 @@ p, li {
 }
 #mobFp1 {
 	position: absolute;
-	left: 10vw;
+	left: 4vw;
 	max-height: 30vh;
 	max-width: 70vw;
 	top: 425vh;
 }
 #mobFp2 {
 	position: absolute;
-	left: 30vw;
+	right: 4vw;
 	max-height: 30vh;
 	max-width: 70vw;
 	top: 450vh;
 }
 #mobFp3 {
 	position: absolute;
-	left: 10vw;
+	left: 4vw;
 	max-height: 30vh;
 	max-width: 70vw;
 	top: 475vh;
 }
 #mobFp4 {
 	position: absolute;
-	left: 30vw;
+	right: 4vw;
 	height: 30vh;
 	max-width: 70vw;
 	top: 500vh;
 }
 
 .mobVisualized {
-	transition-duration: 2s;
+	transition-duration: 1s;
 	opacity: 100%;
 }
 .mobHidden {
-	transition-duration: 2s;
+	transition-duration: 1s;
 	opacity: 0%;
 }
