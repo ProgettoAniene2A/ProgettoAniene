@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 5em;
 }
 
 p, li {
@@ -212,7 +212,7 @@ p, li {
 }
 
 .mobProj > p {
-	font-size: 2.8vh;
+	font-size: 3vh;
 	margin: 0.5em;
 }
 
