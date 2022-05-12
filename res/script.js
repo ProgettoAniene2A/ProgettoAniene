@@ -8,3 +8,10 @@ function redirectQR() {
 		window.location.href = "https://progettoaniene2a.github.io/ProgettoAniene/progetti-mobile/progetti.html";
 	}
 }
+
+function redirectPC() {
+	ratio = screen.width / screen.height;
+	if ( ratio > 1 ) {
+		window.location.href = "https://progettoaniene2a.github.io/ProgettoAniene";
+	}
+}
